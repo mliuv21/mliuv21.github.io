@@ -1,0 +1,118 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Mingzhi Liu
+    - name: Date of Birth
+      value: 14th Feb. 1996
+    - name: Languages
+      value: Chinese, English
+
+- title: Education
+  type: time_table
+  contents:
+
+    - title: Ph.D.
+      institution: Karolinska Institutet, Stockholm, Sweden
+      year: 2021-2025
+      description:
+        - <strong>Supervisor&#58</strong> <b>Dr. Margareta Wilhelm,</b> <em>Karolinska Institutet</em>
+        - <strong>Co-Supervisor&#58</strong> <b> Prof. Johan Holmberg, </b> <em> Karolinska Institutet & Umeå Universitet </em>
+        - title: <strong>Ph.D. Project&#58</strong>
+          contents:
+            - <b>Title&#58</b> Modelling neuroblastoma using reprogrammed patient-derived stem cell
+            - <b>Aim&#58</b> Develop new in vitro and in vivo models to study the origin and progression of neuroblastoma
+            - <b>Methods&#58</b> iPS culture, in vitro differentiation, cell model, in utero injection, chimera generation, IHC, single-cell omics, etc.
+
+    - title: Master's Degree of Medical Science in Biomedicine
+      institution: Karolinska Institutet, Stockholm, Sweden
+      year: 2018-2020
+
+    - title: Bachelor's Degree of Science in Biological Sciences
+      institution: Southwest University, Chongqing, China PR
+      year: 2014-2018
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Participant & Master Degree Project
+      institution: <em>Group of <b> Dr. Johan Holmberg </b>, Department of Cell and Molecular Biology, Karolinska Institutet, Stockholm, Sweden</em>
+      year: Sep. 2019 - Jun. 2020
+      description:
+        - <b>Project title:</b> the molecular mechanism of neuroblastoma
+        
+    - title: Erasmus<sup>+</sup>  Traineeship Student 
+      institution: <em>Group of <b>Prof.Dr.Dr. Hannelore Ehrenreich</b>, Max-Planck Institute for Experimental Medicine, Göttingen, Germany</em>
+      year: Jun. 2019 - Aug. 2019
+      description:
+        - <b>Project title:</b> Investigate different sub-types of  NMDAR auto-antibody
+
+    - title: Research Participant
+      institution: <em>Group of <b>Prof. Olle Larsson</b>, Department of Oncology-Pathology, Karolinska University Hospital, Stockholm, Sweden</em>
+      year: Oct. 2018 - Jun. 2019
+      description:
+        - <b>Project title:</b> The role of IGF-1 in promotion of cance
+
+    - title: Project Leader
+      institution: <em>Southwest University, Chongqing, China </em>
+      year: May. 2016 - May. 2018
+      description:
+        - The 9<sup>th</sup> National Students’ Platform for Innovation and Entrepreneurship Training Program funded by the Ministry of Education, PRC
+
+    - title: Exchange Research Participant
+      institution: <em>College of Saint Benedict & Saint John University, Collegeville, MN </em>
+      year: May. 2016 - Aug. 2016
+
+
+
+- title: Conferences & Symposiums
+  type: time_table
+  contents:
+    - title: <a href="https://nyheter.ki.se/kalender/the-xixth-cancer-research-ki-retreat-at-djuronaset">XIXth KI Cancer Retreat</a>
+      year: May 2022
+      description: 
+        - Poster presenter
+        - Poster Pitch presenter
+
+    - title: <a href="https://ipscconference.org/">International PhD Student Cancer Conference 2022 (IPSCC2022)</a>
+      year: Jun. 2022
+      description: 
+        - Poster presenter
+        - Poster KI:s Student Representative
+
+    - title: <a href="https://nyheter.ki.se/kalender/ki-neuroblastoma-conference-precision-medicine-in-neuroblastoma-from-bench-to-bedside">The 1<sup>st</sup> Karolinska Institutet-Neuroblastoma Conference</a>
+      year: Oct. 2022
+      description: 
+        - Invited Student Presenter
+
+    - title: <a href="https://www.nbcns.se/">The 13th NBCNS Research Meeting</a>
+      year: Nov. 2022
+      description: 
+        - Poster presenter
+
+    - title: <a href="https://bist.eu/events/event/symposium-on-transdisciplinary-approaches-for-neuroblastoma-therapy/">The 1<sup>st</sup> Transdisciplinary Approaches for Neuroblastoma Therapy Symposium </a>
+      year: Feb. 2023
+      description: 
+        - Flash talk presenter
+
+    - title: <a href="https://www.anr2023.org/">Advances in Neuroblastoma Research Conference 2023(ANR2023) </a>
+      year: Feb. 2023
+      description: 
+        - Oral Presenter
+
+- title: Supervision Actives
+  type: time_table
+  contents:
+    - title: Amanda Westergren Jakobsson
+      year: Jan. - Jun. 2022
+      institution: Master's program in Medical Research at Uppsala University
+
+    - title: Hugo Metzger
+      year: Apr. - Jun. 2023
+      institution: Master's program in Biomedicine at Karolinska Institutet
+
+    - title: Ann-Sphoie Oppelt
+      year: Apr. - Jun. 2023
+      institution: Master's program in Biomedicine at Karolinska Institutet
+
+
