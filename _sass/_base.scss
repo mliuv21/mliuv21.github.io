@@ -163,6 +163,118 @@ blockquote {
   }
 }
 
+.about-page {
+  .post-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .post-title {
+    font-size: clamp(2.6rem, 4vw, 4rem);
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+    margin-bottom: 0.75rem;
+  }
+
+  .about-subtitle {
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+
+  .profile {
+    width: 100%;
+    margin-bottom: 2rem;
+
+    img {
+      border-radius: 24px !important;
+      box-shadow: 0 20px 50px rgba(12, 29, 43, 0.12);
+    }
+
+    .address {
+      margin-top: 1rem;
+      padding: 1rem 1.1rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 18px;
+      background: var(--global-subtle-bg-color);
+      font-family: inherit;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+  }
+
+  .clearfix {
+    font-size: 1.05rem;
+    line-height: 1.9;
+  }
+
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.45rem;
+    letter-spacing: -0.02em;
+  }
+}
+
+.research-intro {
+  margin-bottom: 1.5rem;
+}
+
+.research-lead {
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color: var(--global-text-color);
+}
+
+.research-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1.8rem 0 2.2rem;
+}
+
+.keyword-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.52rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(31, 92, 115, 0.14);
+  background: var(--global-subtle-bg-color);
+  color: var(--global-theme-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2.5rem;
+}
+
+.research-card {
+  padding: 1.35rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 22px;
+  background: linear-gradient(180deg, var(--global-card-bg-color) 0%, var(--global-subtle-bg-color) 100%);
+  box-shadow: 0 12px 30px rgba(12, 29, 43, 0.05);
+
+  h3 {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    color: var(--global-theme-color);
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 0.98rem;
+    line-height: 1.75;
+  }
+}
+
 
 // Navbar customization
 
@@ -170,7 +282,8 @@ blockquote {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 0.98;
+  backdrop-filter: saturate(160%) blur(10px);
 }
 
 .navbar .dropdown-menu {
@@ -208,10 +321,14 @@ blockquote {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-size: 1rem;
+    letter-spacing: -0.02em;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
 
     &:hover {
       color: var(--global-hover-color);
@@ -305,9 +422,22 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 
     a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 3rem;
+      height: 3rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 999px;
+      background: var(--global-subtle-bg-color);
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -582,7 +712,12 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.25rem;
+      padding: 1.1rem 1.15rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 20px;
+      background: var(--global-card-bg-color);
+      box-shadow: 0 10px 24px rgba(12, 29, 43, 0.04);
 
       .preview {
         width: 100%;
@@ -718,6 +853,30 @@ footer.sticky-bottom {
         border-color: var(--global-text-color);
       }
     }
+  }
+}
+
+@media (min-width: 576px) {
+  .about-page {
+    .profile {
+      width: 34%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .about-page {
+    .post-title {
+      font-size: 2.5rem;
+    }
+
+    .about-subtitle {
+      font-size: 0.9rem;
+    }
+  }
+
+  .research-grid {
+    grid-template-columns: 1fr;
   }
 }
 
