@@ -165,9 +165,8 @@ blockquote {
 
 .about-page {
   .post-header {
-    margin-bottom: 2.5rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--global-divider-color);
+    margin-bottom: 2.2rem;
+    padding-bottom: 1.2rem;
   }
 
   .post-title {
@@ -179,8 +178,8 @@ blockquote {
 
   .about-subtitle {
     font-size: 1rem;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+    letter-spacing: 0;
+    text-transform: none;
     color: var(--global-text-color-light);
   }
 
@@ -189,14 +188,14 @@ blockquote {
     margin-bottom: 2rem;
 
     img {
-      border-radius: 24px !important;
-      box-shadow: 0 20px 50px rgba(12, 29, 43, 0.12);
+      border-radius: 28px !important;
+      box-shadow: 0 22px 50px rgba(40, 28, 20, 0.12);
     }
 
     .address {
       margin-top: 1rem;
       padding: 1rem 1.1rem;
-      border: 1px solid var(--global-divider-color);
+      border: 0;
       border-radius: 18px;
       background: var(--global-subtle-bg-color);
       font-family: inherit;
@@ -219,12 +218,13 @@ blockquote {
 }
 
 .research-intro {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.4rem;
 }
 
 .research-lead {
-  font-size: 1.3rem;
-  line-height: 1.7;
+  max-width: 38rem;
+  font-size: 1.38rem;
+  line-height: 1.75;
   color: var(--global-text-color);
 }
 
@@ -232,35 +232,34 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   gap: 0.7rem;
-  margin: 1.8rem 0 2.2rem;
+  margin: 1.5rem 0 2rem;
 }
 
 .keyword-chip {
   display: inline-flex;
   align-items: center;
-  padding: 0.52rem 0.9rem;
+  padding: 0.48rem 0.86rem;
   border-radius: 999px;
-  border: 1px solid rgba(31, 92, 115, 0.14);
-  background: var(--global-subtle-bg-color);
+  border: 0;
+  background: var(--global-accent-soft-color);
   color: var(--global-theme-color);
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   font-weight: 600;
   letter-spacing: 0.01em;
 }
 
-.research-grid {
+.about-story-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
-  margin: 1rem 0 2.5rem;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
 }
 
-.research-card {
-  padding: 1.35rem;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 22px;
-  background: linear-gradient(180deg, var(--global-card-bg-color) 0%, var(--global-subtle-bg-color) 100%);
-  box-shadow: 0 12px 30px rgba(12, 29, 43, 0.05);
+.story-panel {
+  padding: 1.35rem 1.45rem;
+  border-radius: 26px;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 14px 32px rgba(40, 28, 20, 0.06);
 
   h3 {
     margin-bottom: 0.6rem;
@@ -273,6 +272,33 @@ blockquote {
     font-size: 0.98rem;
     line-height: 1.75;
   }
+
+  p + p {
+    margin-top: 0.9rem;
+  }
+}
+
+.story-panel-primary {
+  background: linear-gradient(180deg, #fffdfa 0%, var(--global-subtle-bg-color) 100%);
+}
+
+.story-panel-secondary {
+  background: linear-gradient(180deg, var(--global-subtle-bg-color) 0%, #fffdfa 100%);
+}
+
+.personal-note {
+  max-width: 46rem;
+  margin: 0 0 1rem;
+  padding: 1.2rem 0 0;
+
+  p {
+    margin: 0;
+    padding-left: 1.15rem;
+    border-left: 2px solid var(--global-accent-soft-color);
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+    line-height: 1.9;
+  }
 }
 
 
@@ -280,7 +306,7 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
   background-color: var(--global-bg-color);
   opacity: 0.98;
   backdrop-filter: saturate(160%) blur(10px);
@@ -434,7 +460,7 @@ blockquote {
       justify-content: center;
       width: 3rem;
       height: 3rem;
-      border: 1px solid var(--global-divider-color);
+      border: 0;
       border-radius: 999px;
       background: var(--global-subtle-bg-color);
 
@@ -717,7 +743,7 @@ footer.sticky-bottom {
       border: 1px solid var(--global-divider-color);
       border-radius: 20px;
       background: var(--global-card-bg-color);
-      box-shadow: 0 10px 24px rgba(12, 29, 43, 0.04);
+      box-shadow: 0 12px 26px rgba(40, 28, 20, 0.05);
 
       .preview {
         width: 100%;
@@ -875,7 +901,7 @@ footer.sticky-bottom {
     }
   }
 
-  .research-grid {
+  .about-story-grid {
     grid-template-columns: 1fr;
   }
 }

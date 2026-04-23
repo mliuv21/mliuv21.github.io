@@ -5,19 +5,19 @@
 :root {
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #14212b;
-  --global-text-color-light: #5f6f7d;
-  --global-theme-color: #1f5c73;
-  --global-hover-color: #163f52;
+  --global-text-color: #1c2328;
+  --global-text-color-light: #66737c;
+  --global-theme-color: #7b5c49;
+  --global-hover-color: #5f4434;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #0f1a22;
-  --global-footer-text-color: #c6d0d8;
+  --global-footer-bg-color: #1f1916;
+  --global-footer-text-color: #d8ccc5;
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(20, 33, 43, 0.1);
+  --global-divider-color: rgba(28, 35, 40, 0.1);
   --global-card-bg-color: #ffffff;
-  --global-subtle-bg-color: #f5f8fa;
-  --global-accent-soft-color: #dcebf1;
+  --global-subtle-bg-color: #f8f3ee;
+  --global-accent-soft-color: #efe4da;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -50,21 +50,21 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #111920;
+  --global-bg-color: #171412;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #edf3f7;
-  --global-text-color-light: #aab8c2;
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #f2ece8;
+  --global-text-color-light: #c1b2a7;
+  --global-theme-color: #d1a78b;
+  --global-hover-color: #e0b79b;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #0b1218;
-  --global-footer-text-color: #c7d0d7;
+  --global-footer-bg-color: #0f0c0a;
+  --global-footer-text-color: #d6cbc4;
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #2d3942;
-  --global-card-bg-color: #17232b;
-  --global-subtle-bg-color: #162128;
-  --global-accent-soft-color: rgba(38, 152, 186, 0.16);
+  --global-divider-color: #3a302a;
+  --global-card-bg-color: #221c19;
+  --global-subtle-bg-color: #261f1b;
+  --global-accent-soft-color: rgba(209, 167, 139, 0.14);
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
